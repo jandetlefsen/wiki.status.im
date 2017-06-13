@@ -235,19 +235,13 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#faq">FAQ</a></li>
-            <li><a href="#why-a-messenger">Why a Messenger?</a></li>
-            <li><a href="#does-status-support-dapps-that-have-their-own-web-page">Does Status support DApps that have their own web page ?</a></li>
-            <li><a href="#can-your-app-be-launched-with-a-link">Can your app be launched with a link?</a></li>
-            <li><a href="#do-i-have-to-run-go-ethereum-myself-or-on-server">Do I have to run go-ethereum myself or on server?</a></li>
-            <li><a href="#when-did-you-start-coding-and-how-you-are-funded">When did you start coding and how you are funded?</a></li>
-            <li><a href="#i-am-new-to-ethereum-blockchain-i-would-like-to-contribute-to-the-project-where-would-you-suggest-i-start">I am new to Ethereum &amp; Blockchain. I would like to contribute to the project, where would you suggest I start?</a></li>
-            <li><a href="#i-have-a-dapp-that-runs-on-mist-how-can-i-test-it-in-status">I have a DApp that runs on Mist how can I test it in Status?</a></li>
-            <li><a href="#what-is-the-jail-in-your-status-react-code">What is the "jail" in your status-react code?</a></li>
-            <li><a href="#when-can-we-expect-to-see-the-beta">When can we expect to see the Beta?</a></li>
-            <li><a href="#is-it-going-to-be-for-android-only">Is it going to be for Android only?</a></li>
-            <li><a href="#is-it-possible-to-install-status-how-can-i-test">Is it possible to install Status &amp; how can I test?</a></li>
-            <li><a href="#what-languages-do-you-support">What languages do you support?</a></li>
-            <li><a href="#what-about-all-these-permissions-in-the-app">What about all these permissions in the app?</a></li>
+            <li><a href="#basics">Basics</a></li>
+            <li><a href="#contribution">Contribution</a></li>
+            <li><a href="#development">Development</a></li>
+            <li><a href="#dapps">DApps</a></li>
+            <li><a href="#mobile-application">Mobile Application</a></li>
+            <li><a href="#sgt-token">SGT Token</a></li>
+            <li><a href="#snt-token">SNT Token</a></li>
             <li><a href="#nice-to-know">Nice to know</a></li>
             <li><a href="#where-are-the-nightlies">Where are the nightlies?</a></li>
     </ul>
@@ -260,41 +254,41 @@
 </div>
 
 <h1 id="faq">FAQ</h1>
-<h2 id="why-a-messenger">Why a Messenger?</h2>
+<h2 id="basics">Basics</h2>
+<h3 id="what-is-status">What is Status?</h3>
+<p>„Status is an open source messaging platform and mobile interface to interact with decentralized applications that run on the Ethereum Network.” (quoted from <a href="https://status.im/whitepaper.pdf">Whitepaper</a>)</p>
+<h3 id="what-does-status-want-to-solve">What does Status want to solve?</h3>
+<p>Status wants to solve the problem that we (the users) have different identities all over the internet. It criticized that we have spreaded to many personal information all over various platforms. Status wants to create a digital hub where we can use various services based on the Ethereum Network.</p>
+<h3 id="how-does-status-wants-to-solve-this-problem">How does Status wants to solve this problem?</h3>
+<p>Status is an Ethereum based platform. You can say that Status is a digital hub for apps based on the Ethereum blockchain.</p>
+<h3 id="why-a-messenger">Why a Messenger?</h3>
 <p>When Carl &amp; Jarrad looked at how to achieve mass adoption for a client. We looked at things such as where the people are, how they behave on their devices, time spent on pc vs mobile - as of 2014 more time is spent on mobile than desktop, and of that time - a THIRD of it is spent within Instant Messengers.</p>
 <p>Instant Messengers have the highest retention rates, that is when you purchase an install, they become sticky and typically users won't immediately uninstall.</p>
 <p>The average user lifetime sky rockets once their friends are involved. When you start thinking about this as a user base and how to connect that with Ethereum, things like payments and applications built ontop of Ethereum integrated into a converstional interface starts becoming like a clear path forward.</p>
 <p>Ultimately we're building a hybrid browser and messenger for us to have the best chance to cast the widest net and focus on user acquisition, staying agnostic and as close as possible to the principles Ethereum embodies.</p>
-<h2 id="does-status-support-dapps-that-have-their-own-web-page">Does Status support DApps that have their own web page ?</h2>
-<p>Yes, we absolutely support DApps on their own webpage and are striving for SWARM support also. Chances are, if a DApp works in Mist or MetaMask it is likely to work in Status!</p>
-<p>Our goal is to be a DApp browser for Android &amp; iOS, in addition to this we'll support a Chat API if you wish to integrate within a chat context.</p>
-<p>If your web-based DApp renders on mobile, trying using the <code>!browse</code> command inside a chat and navigating to your DApp URL! During our alpha release, DApp developers can also add their DApps as default contacts by following <a href="../../contributing/development/adding-dapps/">these instructions</a>, but in later releases these will be discoverable to uses through the Discover feature.</p>
-<h2 id="can-your-app-be-launched-with-a-link">Can your app be launched with a link?</h2>
-<p>Not at the moment, the standard we will likely support is <a href="https://github.com/ethereum/EIPs/issues/67">EIP67</a>.</p>
-<h2 id="do-i-have-to-run-go-ethereum-myself-or-on-server">Do I have to run go-ethereum myself or on server?</h2>
-<p>Status includes <code>go-ethereum</code> and connects directly to the Ethereum network. All you need to do is run the Status app! This is possible to do with the new Light Client Protocol.</p>
-<h2 id="when-did-you-start-coding-and-how-you-are-funded">When did you start coding and how you are funded?</h2>
+<h3 id="what-is-ethereum">What is Ethereum?</h3>
+<p>Ethereum is a decentralized database which stores information about past transactions and smart contracts between users of the Ethereum blockchain. Ethereum stores the data on a globaly spreaded peer to peer network. For more information about Ethereum, check out. <a href="https://www.ethereum.org">https://www.ethereum.org</a></p>
+<h3 id="who-owns-status">Who owns Status?</h3>
+<p>Status is owned by the company Status Research &amp; Development GmbH based in Switzerland and by its contributors who buy SNT (Status Network Token)</p>
+<h3 id="when-did-you-start-coding-and-how-you-are-funded">When did you start coding and how you are funded?</h3>
 <p>Status is largely self-funded.  We've been working on it since prior Devcon1, and we were awarded a Devgrant to port EthereumJ to Android prior to that.</p>
 <p>EthereumJ has different goals, its developers intended for server use and had no interest in supporting the light client protocol, another large factor is we wanted largely a single codebase for multiple platforms, we had Java running on iOS and Android, we want unify the GUI but the means to do that (JavaFX) is really not suited to mobile devices.</p>
 <p>Our current approach allows us to get bleeding edge tech and stability of geth whilst maintaining a single codebase.</p>
-<h2 id="i-am-new-to-ethereum-blockchain-i-would-like-to-contribute-to-the-project-where-would-you-suggest-i-start">I am new to Ethereum &amp; Blockchain. I would like to contribute to the project, where would you suggest I start?</h2>
+<h3 id="is-there-a-video">Is there a video?</h3>
+<p>Take a look at this on from Status:</p>
+<p><a href="http://www.youtube.com/watch?v=Je7yErjEVt4"><img alt="IMAGE ALT TEXT" src="http://img.youtube.com/vi/Je7yErjEVt4/0.jpg" /></a></p>
+<h2 id="contribution">Contribution</h2>
+<h3 id="how-can-i-contribute-to-status">How can I contribute to Status?</h3>
+<p><a href="http://contribute.status.im">http://contribute.status.im</a></p>
+<h3 id="i-am-new-to-ethereum-blockchain-i-would-like-to-contribute-to-the-project-where-would-you-suggest-i-start">I am new to Ethereum &amp; Blockchain. I would like to contribute to the project, where would you suggest I start?</h3>
 <p>To get up to speed with Ethereum, here are a few resources to get you started:</p>
 <p><a href="http://www.ethdocs.org/en/latest/">Ethdocs.org</a>,
 <a href="http://ethereum101.org/">Ethereum.org</a>,
 <a href="http://ethereum.stackexchange.com/">Ethereum Stack Exchange</a>, and
 <a href="https://www.youtube.com/user/ethereumproject/playlists">Ethereum on Youtube</a></p>
 <p>For Status - please take a look under the <a href="../..#how-to-contribute">Contributing Section</a>, and ask us about it <a href="https://status.im">on Slack</a> (we're friendly people!)</p>
-<h2 id="i-have-a-dapp-that-runs-on-mist-how-can-i-test-it-in-status">I have a DApp that runs on Mist how can I test it in Status?</h2>
-<p>So each chat context has a command !browse - allowing users to access a webview (you can imagine this as a bit like a browser tab), so much in the same way as mist. In terms of integration/compatibility nothing is required on your end to do that if it already works in Mist.</p>
-<p>That said, looking beyond the alpha, we'll have developer tooling, and a way for DApp developers to have profiles for theirs DApps (this then makes them discoverable through the 'Discover' feature), along with the Chat API for Developers who want to integrate through a conversational UI rather than (or in addition to) webview.</p>
-<h2 id="what-is-the-jail-in-your-status-react-code">What is the "jail" in your status-react code?</h2>
-<p>When the Chat API is ready to use, your javascript code is executed in Otto VM  <a href="https://github.com/robertkrimen/otto">https://github.com/robertkrimen/otto</a>  this is the same javascript engine <code>go-ethereum</code> uses. That way your code is executed in a "jail" and shouldn't interfere with the rest of Status. At least, that's the theory, at the moment we have no implementation of the halting problem, but we will.</p>
-<p>For web DApps, we rely on the webview to correctly jail javascript.</p>
-<h2 id="when-can-we-expect-to-see-the-beta">When can we expect to see the Beta?</h2>
-<p>The first release of our alpha was at the very beginning of Q1 2017, beta will come end of Q1 or early Q2 2017 with developer tooling, bug fixes &amp; the ability for DApps to integrate within a chat context.</p>
-<h2 id="is-it-going-to-be-for-android-only">Is it going to be for Android only?</h2>
-<p>No, we support Android &amp; iOS.</p>
-<h2 id="is-it-possible-to-install-status-how-can-i-test">Is it possible to install Status &amp; how can I test?</h2>
+<h2 id="development">Development</h2>
+<h3 id="is-it-possible-to-install-status-how-can-i-test">Is it possible to install Status &amp; how can I test?</h3>
 <p>At the moment you have to <a href="../../contributing/development/building-status/">build it yourself</a>, we are just fixing some bugs before first alpha release to the early access subscribers which signed up on our website <a href="https://status.im">https://status.im</a> - alternatively there are some binaries floating around the Slack now.</p>
 <p>Soon we'll have our alpha test on Google Play &amp; Testflight. Currently Status has been tested on:</p>
 <ul>
@@ -308,20 +302,73 @@
 <li>iPhone 6S</li>
 <li>iPhone 7</li>
 </ul>
-<h2 id="what-languages-do-you-support">What languages do you support?</h2>
-<p>We’re currently supporting 30 languages — this includes; English, 官話, 官话, 廣東話, 上海话, Nederlands, Français, Deutsch, हिन्दी, Magyar, Italiano, 日本語, 한국어, Polski, Português brasileiro, Português europeu, Română, Slovenski, Español, Español (Latin-America), Swahili, Svenska, Suisse française, Schweizerdeutsch, Svizzera Italiana, ภาษาไทย, Türkçe, русский, українська, اُردُو &amp; Tiếng Việt!</p>
-<p>If you see a typo, mistranslation or something missing, don't hesitate to let us know <a href="http://slack.status.im">via the Status Slack</a>, or fix it yourself using our <a href="../../contributing/translations/">Translation Guide!</a></p>
-<h2 id="what-about-all-these-permissions-in-the-app">What about all these permissions in the app?</h2>
+<h3 id="what-is-the-jail-in-your-status-react-code">What is the "jail" in your status-react code?</h3>
+<p>When the Chat API is ready to use, your javascript code is executed in Otto VM  <a href="https://github.com/robertkrimen/otto">https://github.com/robertkrimen/otto</a>  this is the same javascript engine <code>go-ethereum</code> uses. That way your code is executed in a "jail" and shouldn't interfere with the rest of Status. At least, that's the theory, at the moment we have no implementation of the halting problem, but we will.</p>
+<p>For web DApps, we rely on the webview to correctly jail javascript.</p>
+<h3 id="do-i-have-to-run-go-ethereum-myself-or-on-server">Do I have to run go-ethereum myself or on server?</h3>
+<p>Status includes <code>go-ethereum</code> and connects directly to the Ethereum network. All you need to do is run the Status app! This is possible to do with the new Light Client Protocol.</p>
+<h2 id="dapps">DApps</h2>
+<h3 id="what-is-the-dapp-directory">What is the DApp Directory?</h3>
+<p>The DApp Directory can be compared to an App Store where you can search for applications based on the Ethereum blockchain.</p>
+<h3 id="what-dapps-can-i-use-within-status">What DApps can I use within Status?</h3>
+<p>On the website it is said that „uPort, Gnosis, Oasis Exchange, Ethlance, Aragon, Etherisc and Ujo” can be used.</p>
+<h3 id="does-status-support-dapps-that-have-their-own-web-page">Does Status support DApps that have their own web page ?</h3>
+<p>Yes, we absolutely support DApps on their own webpage and are striving for SWARM support also. Chances are, if a DApp works in Mist or MetaMask it is likely to work in Status!</p>
+<p>Our goal is to be a DApp browser for Android &amp; iOS, in addition to this we'll support a Chat API if you wish to integrate within a chat context.</p>
+<p>If your web-based DApp renders on mobile, trying using the <code>!browse</code> command inside a chat and navigating to your DApp URL! During our alpha release, DApp developers can also add their DApps as default contacts by following <a href="../../contributing/development/adding-dapps/">these instructions</a>, but in later releases these will be discoverable to uses through the Discover feature.</p>
+<h3 id="i-have-a-dapp-that-runs-on-mist-how-can-i-test-it-in-status">I have a DApp that runs on Mist how can I test it in Status?</h3>
+<p>So each chat context has a command !browse - allowing users to access a webview (you can imagine this as a bit like a browser tab), so much in the same way as mist. In terms of integration/compatibility nothing is required on your end to do that if it already works in Mist.</p>
+<p>That said, looking beyond the alpha, we'll have developer tooling, and a way for DApp developers to have profiles for theirs DApps (this then makes them discoverable through the 'Discover' feature), along with the Chat API for Developers who want to integrate through a conversational UI rather than (or in addition to) webview.</p>
+<h2 id="mobile-application">Mobile Application</h2>
+<h3 id="is-it-going-to-be-for-android-only">Is it going to be for Android only?</h3>
+<p>No, we support Android &amp; iOS.</p>
+<h3 id="it-is-said-that-the-status-app-is-in-the-alpha-phase-how-can-i-test-it">It is said that the Status App is in the Alpha phase. How can I test it?</h3>
+<p>Take a look here: <a href="http://contribute.status.im/">http://contribute.status.im/</a></p>
+<h3 id="is-there-an-android-alpha">Is there an Android Alpha?</h3>
+<p>Yes there is. Take a look here: <a href="https://test.status.im">https://test.status.im</a></p>
+<h3 id="is-there-an-apple-alpha">Is there an Apple Alpha?</h3>
+<p>Yes there is but unfortunately there are no slots for the Alpha due to a limited amount of codes.</p>
+<h3 id="when-can-we-expect-to-see-the-beta">When can we expect to see the Beta?</h3>
+<p>The first release of our alpha was at the very beginning of Q1 2017, beta will come end of Q1 or early Q2 2017 with developer tooling, bug fixes &amp; the ability for DApps to integrate within a chat context.</p>
+<h3 id="what-about-all-these-permissions-in-the-app">What about all these permissions in the app?</h3>
 <p>Permissions are always a hot topic for apps, we hate the way we’re doing them too. The good news is it’s only like this for alpha and in production we’ll make permission usage on-demand. At the moment there’s many moving parts and a bunch of react-native dependencies (and Instabug) which don’t have code to ask on-demand. Thanks for understanding!</p>
 <p><strong>Contacts, SMS, Telephone</strong> — these are for an optional step of phone contact synchronisation. We don’t use them unless you tap on the phone sync request message.  </p>
 <p><strong>Location</strong> — Currently used for our toy !location command. Our aim is to provide this to DApps For things like sharing location with friends, ordering food, or self-driving cars.  </p>
 <p><strong>Microphone</strong> — In this version, we don’t need it, it’s there because we intended to send audio messages over Whisper, in practice this was a bad idea. We still intend to offer Audio messages in Beta so it’s going to stay. It is also used in Instabug which we use to collect feedback.  </p>
 <p><strong>Storage</strong> — We need a place to put the blockchain data.  </p>
 <p><strong>Camera</strong> — We use this for setting your profile picture and for reading QR codes.  </p>
+<h3 id="can-your-app-be-launched-with-a-link">Can your app be launched with a link?</h3>
+<p>Not at the moment, the standard we will likely support is <a href="https://github.com/ethereum/EIPs/issues/67">EIP67</a>.</p>
+<h3 id="what-languages-do-you-support">What languages do you support?</h3>
+<p>We’re currently supporting 30 languages — this includes; English, 官話, 官话, 廣東話, 上海话, Nederlands, Français, Deutsch, हिन्दी, Magyar, Italiano, 日本語, 한국어, Polski, Português brasileiro, Português europeu, Română, Slovenski, Español, Español (Latin-America), Swahili, Svenska, Suisse française, Schweizerdeutsch, Svizzera Italiana, ภาษาไทย, Türkçe, русский, українська, اُردُو &amp; Tiếng Việt!</p>
+<p>If you see a typo, mistranslation or something missing, don't hesitate to let us know <a href="http://slack.status.im">via the Status Slack</a>, or fix it yourself using our <a href="../../contributing/translations/">Translation Guide!</a></p>
+<h2 id="sgt-token">SGT Token</h2>
+<h3 id="what-are-sgt">What are SGT?</h3>
+<p>Status Genesis Tokens are a way to say thank you to community contributors. SGT can be redeemed for SNT after the Contribution Period has been finalised.</p>
+<h3 id="how-can-i-buy-sgt-token">How can I buy SGT Token?</h3>
+<p>You can not buy SGT token, they are given for contributions</p>
+<h3 id="how-can-i-earn-sgt-token">How can I earn SGT Token?</h3>
+<p>Until June 17th we’ll be allocating SGT to those who can prove they have helped grow or are a part of the Status community. Join the <a href="http://slack.status.im/">Status Slack</a> to learn more.</p>
+<h2 id="snt-token">SNT Token</h2>
+<h3 id="what-are-snt-token">What are SNT Token?</h3>
+<p>Status Network Token are used for network mechanics and governance.</p>
+<h3 id="how-can-i-buy-snt">How can I buy SNT</h3>
+<p>There will be a Contributing Periode starting on June 17th 2017 at 2pm GMT (UTC+0), which will end on 1st July 2017 at 2pm GMT (UTC+0) or before when some goals are achieved. <a href="http://contribute.status.im/">http://contribute.status.im</a></p>
+<h3 id="what-will-be-the-exchange-rate-for-snt-token">What will be the exchange rate for SNT token?</h3>
+<p>10,000 SNT per 1 ETH</p>
+<h3 id="is-it-possible-to-buy-less-then-10000-snt-token">Is it possible to buy less then 10,000 SNT Token?</h3>
+<p>You will be able to buy a minimum of 0.01 ETH which will be 100 SNT.</p>
+<h3 id="what-do-i-need-to-buy-snt">What do I need to buy SNT?</h3>
+<p>You need an Ethereum wallet and ETH to buy SNT and receive it. <strong>Do not use Exchanges!</strong> You can check out <a href="https://www.myetherwallet.com">MyEtherWallet</a> or <a href="https://www.ethereum.org">Mist</a> by the Ethereum network</p>
+<h3 id="is-snt-an-erp-20-token">Is SNT an ERP-20 token?</h3>
+<p>Yes.</p>
+<h3 id="can-us-resident-buy-snt-token">Can US resident buy SNT Token?</h3>
+<p>No.</p>
 <h2 id="nice-to-know">Nice to know</h2>
 <p><a href="https://status.im/">Status</a></p>
 <p><a href="https://wiki.status.im/getting-started/faq/#faq">Status FAQ</a></p>
 <p><a href="https://blog.status.im/">Status Blog</a></p>
+<p><a href="http://slack.status.im/">Status Slack</a></p>
 <p><a href="https://www.facebook.com/ethstatus">Facebook</a></p>
 <p><a href="https://twitter.com/ethstatus">Twitter</a></p>
 <p><a href="https://github.com/status-im">Github</a></p>
